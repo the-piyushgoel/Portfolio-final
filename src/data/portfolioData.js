@@ -81,7 +81,7 @@ export const portfolioData = {
       school: "KIET GROUP OF iNSTITUTIONS",
       year: "2024-2028",
       description: "Currently pursuing Bachelor's Degree in technology (B.Tech CS).",
-      image: "/Assets/education/three.jpg",
+      image: "/assets/education/three.jpg",
       className: "first"
     },
     {
@@ -89,7 +89,7 @@ export const portfolioData = {
       school: "BDS INTERNATIONAL SCHOOL",
       year: "2021-2023",
       description: "I studied regular course fOR std. 11 & 12, and completed MY higher secondary (+2) majoring in science (PCM) with CS.",
-      image: "/Assets/education/one.png",
+      image: "/assets/education/one.png",
       className: "second"
     },
     {
@@ -97,7 +97,7 @@ export const portfolioData = {
       school: "BDS INTERNATIONAL SCHOOL",
       year: "2019-2021",
       description: "I joined here at the elementary level and completed my lower secondary (std. 9) and secondary (std. 10) in regular subjects.",
-      image: "/Assets/education/two.jpg",
+      image: "/assets/education/two.jpg",
       className: "third"
     }
   ],

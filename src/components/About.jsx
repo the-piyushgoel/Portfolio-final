@@ -23,7 +23,7 @@ const About = () => {
     <section className="about" id="about">
       <div className="about-content">
         <div className="column right">
-          <img src="/Assets/main-image.jpg" alt="" />
+          <img src="/ssets/main-image.jpg" alt="" />
         </div>
         <div className="column left">
           <div className="text">

@@ -1,0 +1,161 @@
+.education-main {
+	padding-top: 150px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	/* align-items: center; */
+}
+
+.education-main .education-section {
+	/* position: relative; */
+	/* top: 150px; */
+	width: fit-content;
+	min-width: 770px;
+	max-width: 800px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 50px;
+	/* margin-left: auto;
+	margin-right: auto; */
+	box-sizing: content-box;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.education-main .education-section .study {
+	/* height: 190px; */
+	display: flex;
+	flex-direction: row;
+	/* margin-bottom: 50px; */
+	/* justify-content: space-between; */
+}
+
+.education-main .education-section .study .image {
+	display: flex;
+	justify-content: center;
+}
+
+.education-main .education-section .study .image img {
+	width: 300px;
+	/* height: 180px; */
+	aspect-ratio: 300/180;
+	/* min-width: 200px; */
+	border-radius: 10px;
+	border: 2px solid var(--main-color);
+}
+
+.education-main .education-section .study .line {
+	min-width: 2.5px;
+	height: 180px;
+	margin-top: auto;
+	margin-bottom: auto;
+	border-radius: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: var(--main-color);
+}
+
+.education-main .education-section .study.second .image {
+	order: 2;
+}
+
+.education-main .education-section .study.second .line {
+	order: 1;
+}
+
+.education-main .education-section .study.second .texts {
+	order: 0;
+}
+
+@media (max-width: 850px) {
+	.education-main .education-section .study {
+		flex-direction: column;
+		border: 2px solid #ccc;
+		border-radius: 20px;
+		padding: 10px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		background: rgba(255, 255, 255, 0.1);
+		backdrop-filter: blur(4px);
+	}
+
+	.education-main .education-section {
+		min-width: 250px;
+		width: 85%;
+	}
+
+	.education-main .education-section .study .image img {
+		width: 85%;
+		min-width: 250px;
+	}
+
+	.education-main .education-section .study .line {
+		width: 100%;
+		height: 4px;
+		margin: 0px;
+		margin-top: 20px;
+		margin-bottom: 5px;
+	}
+
+	.education-main .education-section .study .texts {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.education-main .education-section .study.second .image {
+		order: 2;
+	}
+
+	.education-main .education-section .study.second .line {
+		order: 3;
+	}
+
+	.education-main .education-section .study.second .texts {
+		order: 4;
+	}
+
+	.education-main .education-section .study .texts .header {
+		text-align: center;
+	}
+
+	.education-main .education-section .study .texts .name {
+		text-align: center;
+	}
+
+	.education-main .education-section .study .texts .year {
+		text-align: center;
+	}
+
+	.education-main .education-section .study .texts .text {
+		text-align: center;
+	}
+}
+
+.education-main .education-section .study .texts .header {
+	font-size: 1.4rem;
+	font-weight: 600;
+	color: var(--main-color);
+}
+
+.education-main .education-section .study .texts .name {
+	font-size: 1.2rem;
+	font-weight: 500;
+	color: var(--text-color);
+	margin-top: 5px;
+}
+
+.education-main .education-section .study .texts .year {
+	font-weight: 600;
+	color: var(--text-color);
+}
+
+.education-main .education-section .study .texts .text {
+	font-weight: 500;
+	color: var(--text-color);
+	/* text-align: justify; */
+	margin-top: 10px;
+}
+
